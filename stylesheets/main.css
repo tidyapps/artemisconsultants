@@ -1,0 +1,56 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; background: transparent; }
+
+body { font: small "Trebuchet MS", Helvetica, sans-serif; background-color: #000; color: #fff; }
+body * { line-height: 1.4em; }
+
+h1, h2 { color: #fff; }
+a, a:hover, a:visited, a:active { color: #fff; text-decoration: none; }
+
+#wrapper { margin: 0 auto; width: 66em; position: relative; }
+
+#heading { width: 26em; margin-top: 3em; }
+#heading h1 { font-size: 240%; font-weight: normal; text-align: center; }
+#heading h1 span { display: block; }
+#heading h1 span.pre { font-size: 80%; line-height: 1.2em; }
+#heading h1 span.post { font-size: 65%; line-height: 1.1em; }
+
+#tagline { width: 22em; margin: 20em 0 0 2em; }
+#tagline h2 { font-size: 150%; font-weight: normal; text-align: center; }
+#tagline h2 span { white-space: nowrap; }
+
+#enter { width: 26em; margin: 1.5em 0 0 0; }
+#enter p { font-size: 180%; font-weight: normal; text-align: center; padding: .1em 0; }
+#enter p a { text-decoration: none; border-bottom: 2px solid #333; padding: .1em .2em; }
+#enter p a:hover { text-decoration: none; background-color: transparent; border-bottom: 2px solid #fff; }
+
+#banner { position: absolute; width: 21em; top: 4em; left: 3em; }
+#banner h1 { font-size: 150%; font-weight: normal; text-align: center; }
+
+#menu { padding-top: 19em; margin-bottom: 4.5em; margin: 0 auto; width: 55em; }
+#menu ul { font-size: 120%; }
+#menu ul li { list-style: none; display: block; float: left; margin-left: 2.8em; text-align: center; padding: .2em 0; }
+#menu ul li.first { margin-left: 0; }
+#menu ul li a { padding: .3em .5em; }
+#menu ul li a:hover { color: #000; background-color: #fff; text-decoration: none; }
+#menu ul li.selected a { font-weight: bold; color: #000; background-color: #eee; }
+
+#content { clear: both; text-align: justify; font-size: 115%; padding-top: 2em; }
+#content h2 { margin-bottom: 1em; text-align: left; font-size: 110%; font-weight: normal; }
+#content h2.center { text-align: center; margin-bottom: 1.5em; }
+#content span.underline { border-bottom: 1px solid #fff; }
+#content p { margin-bottom: 1.4em; }
+#content p img.right { float: right; margin: 1em 0 1em 1.2em; }
+#content p img.left { float: left; margin: 1em 1.2em 1em 0; }
+#content p a { text-decoration: underline; }
+
+#content blockquote { float: right; clear: both; width: 27em; margin-bottom: 1.5em; background: transparent url(../images/blockquote-tl.gif) no-repeat top left; padding-top: 5px; }
+#content blockquote p { text-align: left; margin-bottom: .5em; font-size: 95%; line-height: 1.5em; }
+#content blockquote p.start { text-indent: 24px; }
+#content blockquote p span.end { padding-right: 25px; background: transparent url(../images/blockquote-br.gif) no-repeat scroll bottom right; }
+#content blockquote p cite { font-style: italic; font-size: 110%; text-align: right; font-weight: bold; }
+
+div.centralise { text-align: center; }
+
+#footer { clear: both; }
+#footer p { text-align: right; font-size: 85%; padding: 1.5em 0 .5em 0; color: #666; }
+
